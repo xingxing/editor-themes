@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string></string>
+	<key>contactName</key>
+	<string>Aston Jay</string>
+	<key>description</key>
+	<string>Alchemist Theme for textmate by @astonj for the http://elixirforum.com</string>
+	<key>name</key>
+	<string>Alchemist</string>
+	<key>uuid</key>
+	<string>DDA2524A-DE96-43D1-BF55-12D8948FDF60</string>
+</dict>
+</plist>
