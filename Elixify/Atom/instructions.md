@@ -1,0 +1,1 @@
+Copy theme to `~/.atom/packages` and then select `Atom > Preferences > themes`
