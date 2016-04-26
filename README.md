@@ -11,7 +11,7 @@ Feedback and PR's welcome.
 
 If you need to discuss anything you can open an issue here or find me on...
 
-- [http://elixirforum.com](Elixir Forum)
+- [http://elixirforum.com](Elixir Forum) ([http://elixirforum.com/t/introducing-elixify-a-code-editor-theme-for-elixir/450](Elixify Thread))
 - [http://metaruby.com](MetaRuby Forum)
 
 
