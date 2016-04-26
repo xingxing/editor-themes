@@ -1,17 +1,17 @@
 # Code Editor Themes
 
-A selection of themes for TextMate (1 & 2) Vim, Sublime Text and Emacs/SpaceMacs!
+A selection of themes for TextMate (1 & 2) Vim, Sublime Text, Atom and Emacs/SpaceMacs!
 
 - CodeSchool Theme - very popular with Rubyists
-- The Alchemist - for Alchemists! (Elixir Developers)
+- Elixify - an elixified theme for Alchemists!
 
-Please note the Alchemist theme is very new, and there are a few things I wanted to include (like string interpolation) but these do not seem to be supported for Elixir in Emacs or Vim.
+Please note the Elixify theme is in beta and currently only available for TextMate 1 & 2, Sublime and Atom. The Emacs and Vim versions are next on my list.
 
-Feedback and PR's :-)
+Feedback and PR's welcome.
 
-You can find me on the...
+If you need to discuss anything you can open an issue here or find me on...
 
-- [http://metaruby.com](MetaRuby Forum)
 - [http://elixirforum.com](Elixir Forum)
+- [http://metaruby.com](MetaRuby Forum)
 
 

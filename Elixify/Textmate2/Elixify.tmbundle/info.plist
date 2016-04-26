@@ -5,12 +5,12 @@
 	<key>contactEmailRot13</key>
 	<string></string>
 	<key>contactName</key>
-	<string>Aston Jay</string>
+	<string>AstonJ</string>
 	<key>description</key>
-	<string>Alchemist Theme for textmate by @astonj for the http://elixirforum.com</string>
+	<string>Elixify theme by @astonj for http://elixirforum.com</string>
 	<key>name</key>
-	<string>Alchemist</string>
+	<string>Elixify</string>
 	<key>uuid</key>
-	<string>DDA2524A-DE96-43D1-BF55-12D8948FDF60</string>
+	<string>CE7452AB-BA3A-4217-B1C3-E2F1E5AD3B18</string>
 </dict>
 </plist>

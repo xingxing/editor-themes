@@ -3,7 +3,7 @@ Simply copy it to `~/.vim/colors`
 And then open `~/.gvimrc.after` and paste the following into it:
 
 ```
-color alchemist
+color elixify
 set guifont=Monaco:h12
 let g:NERDTreeWinPos = "right"
 set guioptions-=T " Removes top toolbar
