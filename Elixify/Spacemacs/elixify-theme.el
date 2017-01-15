@@ -17,7 +17,7 @@
  ;; basic theming.
 
  '(default ((t (:foreground "#F0F0F0" :background "#23202C" ))))
- '(region  ((t (:background "#DDF0FF33"))))
+ '(region  ((t (:foreground "#F1F5FF" :background "#676369"))))
  '(cursor  ((t (:background "#9EA7A6"))))
 
  ;; Temporary defaults
