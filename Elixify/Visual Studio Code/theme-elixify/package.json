@@ -1,0 +1,22 @@
+{
+    "name": "theme-elixify",
+    "displayName": "Elixify",
+    "description": "Elixify theme by AstonJ for elixirforum.com",
+    "version": "0.0.1",
+    "publisher": "AstonJ",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Elixify",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Elixify.tmTheme"
+            }
+        ]
+    }
+}
