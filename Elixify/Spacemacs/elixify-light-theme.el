@@ -1,28 +1,28 @@
-;;; elixify-theme.el --- an Emacs 24 theme
+;;; elixify-light-theme.el --- an Emacs 24 theme
 ;;
 ;;; Author: AstonJ for https://elixirforum.com
 ;;; Package-Requires: ((emacs "24.0"))
 ;;
 ;;; Code:
 
-(deftheme elixify
-  "elixify-theme - Created by AstonJ - 2016-03-26 02:29:49 +0000")
+(deftheme elixify-light
+  "elixify-light-theme - Created by AstonJ - 2016-03-26 02:29:49 +0000")
 
 (custom-theme-set-variables
- 'elixify
+ 'elixify-light
 )
 
 (custom-theme-set-faces
- 'elixify
+ 'elixify-light
  ;; basic theming.
 
 ;; Dark
-'(default ((t (:foreground "#F0F0F0" :background "#302C3A" ))))
-'(highlight ((t (:background "#24212D"                     ))))
+;; '(default ((t (:foreground "#F0F0F0" :background "#302C3A" ))))
+;; '(highlight ((t (:background "#24212D"                     ))))
 
 ;; Light
-;; '(default ((t (:foreground "#F0F0F0" :background "#3B3749" ))))
-;; '(highlight ((t (:background "#302C3A"                     ))))
+ '(default ((t (:foreground "#F0F0F0" :background "#3B3749" ))))
+ '(highlight ((t (:background "#302C3A"                     ))))
  
  '(region  ((t (:foreground "#ADA5A9" :background "#534A53"))))
  '(cursor  ((t (:background "#9EA7A6"))))
@@ -134,10 +134,10 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'elixify)
+(provide-theme 'elixify-light)
 
 ;; Local Variables:
 ;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode +1))
 ;; End:
 
-;;; elixify-theme.el ends here
+;;; elixify-light-theme.el ends here
