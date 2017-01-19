@@ -16,8 +16,8 @@
  'elixify
  ;; basic theming.
 
- '(default ((t (:foreground "#F0F0F0" :background "#23202C" ))))
- '(region  ((t (:foreground "#F1F5FF" :background "#676369"))))
+ '(default ((t (:foreground "#F0F0F0" :background "#302C3A" ))))
+ '(region  ((t (:foreground "#ADA5A9" :background "#534A53"))))
  '(cursor  ((t (:background "#9EA7A6"))))
 
  ;; Temporary defaults
@@ -25,8 +25,9 @@
  '(fringe                              ((t (                       :background "#383540" ))))
 
  '(minibuffer-prompt                   ((t (:foreground "#1278A8"  :background nil       :weight bold                                  ))))
+
  '(escape-glyph                        ((t (:foreground "orange"   :background nil                                                     ))))
- '(highlight                           ((t (:foreground "orange"   :background nil                                                     ))))
+ '(highlight                           ((t (:background "#24212D"                                                                      ))))
  '(shadow                              ((t (:foreground "#777777"  :background nil                                                     ))))
 
  '(trailing-whitespace                 ((t (:foreground "#FFFFFF"  :background "#C74000"                                               ))))
@@ -46,7 +47,7 @@
 
  '(isearch                             ((t (:foreground "#99ccee"  :background "#444444"                                               ))))
  '(isearch-fail                        ((t (                       :background "#ffaaaa"                                               ))))
- '(lazy-highlight                      ((t (                       :background "#77bbdd"                                               ))))
+ '(lazy-highlight                      ((t (                       :background "#ADA5A9"                                               ))))
  '(match                               ((t (                       :background "#3388cc"                                               ))))
 
  '(tooltip                             ((t (:foreground "black"    :background "LightYellow" :inherit (variable-pitch)                 ))))
@@ -68,11 +69,11 @@
  '(flymake-errline                     ((t (:underline "#AA0000" :background nil :inherit nil ))))
  '(flymake-warnline                    ((t (:underline "#009945" :background nil :inherit nil ))))
 
- ;;git-gutter
+ ;; git-gutter
  '(git-gutter:added                    ((t (:foreground "#609f60" :bold t))))
  '(git-gutter:modified                 ((t (:foreground "#3388cc" :bold t))))
  '(git-gutter:deleted                  ((t (:foreground "#cc3333" :bold t))))
-
+  
  '(diff-added                          ((t (:background "#305030"))))
  '(diff-removed                        ((t (:background "#903010"))))
  '(diff-file-header                    ((t (:background "#362145"))))
@@ -84,6 +85,7 @@
  '(font-lock-comment-face ((t (:foreground "#7C717F"  :italic t))))
  '(font-lock-constant-face ((t (:foreground "#E9CFEC"  ))))
  '(font-lock-type-face ((t (:foreground "#9FCCFF"  ))))
+
  '(font-lock-keyword-face ((t (:foreground "#F1C1B9"  ))))
  '(font-lock-string-face ((t (:foreground "#B0CBA6"  ))))
  '(font-lock-variable-name-face ((t (:foreground "#D0C0ED"  ))))
@@ -106,6 +108,14 @@
  '(rainbow-delimiters-depth-8-face ((t (:foreground "#938a96"))))
  '(rainbow-delimiters-depth-9-face ((t (:foreground "#9b939e"))))
  '(rainbow-delimiters-unmatched-face ((t (:foreground "#FF0000"))))
+
+;;New Custom stuff
+;; "#E0E0E0"
+`(show-paren-mismatch ((t (:background "#9FCCFF" :foreground "#333"))))
+`(show-paren-match ((t (:background "#9FCCFF" :foreground "#333"))))
+`(sp-show-pair-mismatch-face ((t (:background "#9FCCFF" :foreground "#333"))))
+`(sp-show-pair-match-face ((t (:background "#9FCCFF" :foreground "#333"))))
+
 ) ;; End face definitions
 
 ;;;###autoload
