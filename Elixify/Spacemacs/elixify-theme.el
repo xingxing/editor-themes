@@ -18,7 +18,7 @@
 
 ;; Dark
 '(default ((t (:foreground "#F0F0F0" :background "#302C3A" ))))
-'(highlight ((t (:background "#24212D"                     ))))
+'(highlight ((t (:background "#2C2934"                     ))))
 
 ;; Light
 ;; '(default ((t (:foreground "#F0F0F0" :background "#3B3749" ))))
